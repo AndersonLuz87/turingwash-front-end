@@ -8,32 +8,92 @@
 
   </script>
   <style>
+    .body{
+      background-color: #ededed;
+      font-size: 16px;
+      border: 4px solid red;
+    }
 
+    .header{
+      background-color: transparent;
+      border: 4px solid blue; 
+      display: flex;
+      justify-content: baseline;    
+    }
+
+    .buttons-bar{
+      border: 4px solid green;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 80%;
+      padding: 1rem;
+    }
+
+    .button__car-menu{
+
+    }
+
+    .button__wash-menu{
+
+    }
+
+    .button-exit{
+
+    }
+
+    .main{
+      border: 4px solid black;
+    }
+
+    .card-title{
+      border: 4px solid red;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card-conteiner__card-car{
+      border: 4px solid blueviolet;
+      padding: 16px;
+    }
+
+    .end-section{
+      border: 4px solid yellow;
+    }
+
+    .button__add-car{
+
+    }
+
+    .footer{
+      border: 4px solid purple;
+    }
   </style>
 </head>
-  <body>
-    <header>
+  <body class="body">
+    <header class="header">
       <h3>
         Turing Wash (imagem)
      </h3>
-     <div>
-       <button>
+     <div class="buttons-bar">
+       <button class="button__car-menu">
           Meus carros
        </button>
-       <button>
+       <button class="button__wash-menu">
           Minhas lavagens
        </button>
-       <button>
+       <button class="button-exit">
           Sair
        </button>
      </div>
     </header>
-    <main>
-      <section>
+    <main class="main">
+      <section class="card-title">
         <h3>Meus carros</h3>
       </section>
       <section>
-        <article>
+        <article class="card-conteiner__card-car">
           <div>
             <h2>Nissan Kicks</h2>
             <h1>2018</h1>
@@ -44,7 +104,7 @@
             </button>
           </div>
         </article>
-        <article>
+        <article class="card-conteiner__card-car">
           <div>
             <h2>Chevrolet Onix</h2>
             <h1>2015</h1>
@@ -56,13 +116,13 @@
           </div>
         </article>
       </section>
-      <section>
-        <button>
+      <section class="end-section">
+        <button class="button__add-car">
           Adicionar carro
         </button>
       </section>  
     </main>
-    <footer>
+    <footer class="footer">
       <div>
         Logo Turing Wash
       </div>
