@@ -1,0 +1,130 @@
+.body{
+    background-color: #ededed;
+    font-size: 16px;
+    border: 4px solid red;
+  }
+
+  .header{
+    background-color: transparent;
+    border: 4px solid blue; 
+    display: flex;
+    justify-content: baseline; 
+    padding: 4px;   
+  }
+
+  .header__logo{
+    border: 4px solid green;
+    width: 20%;
+  }
+
+  .header__buttons-bar{
+    border: 4px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 80%;
+    padding: 4px;
+  }
+
+  .button__car-menu, .button__wash-menu, .button-exit{
+    border: 1px solid red;
+    width: 25%;
+    height: fit-content;
+    padding: 4px;
+  }
+
+  .button__car-menu{
+
+  }
+
+  .button__wash-menu{
+
+  }
+
+  .button-exit{
+
+  }
+
+  .main{
+    border: 4px solid black;
+    padding: 4px;
+  }
+
+  .card-title{
+    border: 4px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+  }
+
+  .card-conteiner__card-car{
+    border: 2px solid blueviolet;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+  }
+
+  .card-conteiner__car-id{
+    border: 2px solid green;
+    width: 25%;
+    height: 100%;
+    padding: 2px;
+  }
+
+  .card-conteiner__btn-reset{
+    border: 2px solid green;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 2px;
+
+  }
+
+  .btn-reset{
+  
+  }
+
+  .end-section{
+    border: 4px solid yellow;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2px;
+  }
+
+  .button__add-car{
+
+  }
+
+  .footer-conteiner{
+    border: 4px solid purple;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+  }
+
+  .footer-logo-turingwash{
+    border: 2px solid black;
+  }
+
+  .footer-conteiner__label-center{
+    border: 2px solid black;
+    font-size: 0.7em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1px;
+    
+  }
+
+  .footer-conteiner__logo-instagram{
+    border: 2px solid black;
+
+  }
